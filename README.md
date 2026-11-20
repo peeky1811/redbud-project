@@ -8,6 +8,7 @@ This project analyzes flowering observations for Texas eastern redbuds. It inclu
 - `gopika_eda_visualizations.py` — creates the monthly flowering proportion and Texas distribution plots.
 - `gopika_data_quality.py` — compares data-quality filtering choices.
 - `gopika_logistic_ablation.py` — compares seasonal-only and seasonal-plus-geography logistic-regression features.
+- `gopika_grouped_split.py` — compares standard and observer-grouped cross-validation.
 
 ## Running
 
@@ -18,6 +19,7 @@ python gopika_data_eda_baseline.py
 python gopika_eda_visualizations.py
 python gopika_data_quality.py
 python gopika_logistic_ablation.py
+python gopika_grouped_split.py
 ```
 
 The scripts use the included ZIP exports and write their CSV and PNG results into this directory. They require Python with `pandas`, `numpy`, `matplotlib`, `scikit-learn`, and `geopandas` installed.
