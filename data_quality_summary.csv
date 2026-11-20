@@ -1,0 +1,4 @@
+dataset,total,flowering,no_flowers_fruits,flowering_percentage
+all_observations,809,464,345,57.35
+exclude_cultivated,756,432,324,57.14
+research_only,728,418,310,57.42
